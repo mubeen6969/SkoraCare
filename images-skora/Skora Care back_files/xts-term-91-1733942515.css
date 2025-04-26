@@ -1,0 +1,21 @@
+#slider-91 .wd-slide {
+	min-height: 500px;
+}
+#slider-91 .wd-nav-pagin-wrap {
+	--wd-pagin-size: 15px;
+	--wd-pagin-bg: rgba(255,255,255,0.51);
+	--wd-pagin-bg-hover: rgba(255,255,255,0.51);
+	--wd-pagin-bg-act: rgb(255,255,255);
+}
+
+@media (max-width: 1024px) {
+	#slider-91 .wd-slide {
+		min-height: 500px;
+	}
+}
+
+@media (max-width: 768px) {
+	#slider-91 .wd-slide {
+		min-height: 500px;
+	}
+}
