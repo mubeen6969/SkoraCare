@@ -25,19 +25,19 @@ function homeAnimate() {
     stagger: 0.2,
     duration: 0.5,
     opacity: 0
-  })
+  }, "-=0.5")
   tl.from('.navbar .icons', {
     x: 100,
     duration: 1,
     opacity: 0
-  })
+  }, "-=0.5")
   tl.from(['.offer-text h1', '.offer-text .discount', '.offer-text p'], {
     x: -100,
     duration: 1,
     // delay:1,
     opacity: 0,
     stagger: 0.2
-  })
+  }, "-=1")
   tl.from('.offer-text button', {
     y: 50,
     opacity: 0,
